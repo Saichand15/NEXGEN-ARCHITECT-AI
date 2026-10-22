@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5c451"/>
+      <stop offset="50%" stop-color="#e0a92e"/>
+      <stop offset="100%" stop-color="#c8891a"/>
+    </linearGradient>
+    <linearGradient id="goldDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0a92e"/>
+      <stop offset="100%" stop-color="#a8740f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- House outline behind -->
+  <path d="M100 18 L172 78 L160 78 L160 150 L40 150 L40 78 L28 78 Z"
+        fill="none" stroke="url(#gold)" stroke-width="7" stroke-linejoin="round" opacity="0.9"/>
+
+  <!-- NG monogram -->
+  <g fill="url(#goldDark)">
+    <!-- N -->
+    <path d="M52 138 L52 78 L64 78 L96 118 L96 78 L108 78 L108 138 L96 138 L64 98 L64 138 Z"/>
+    <!-- G -->
+    <path d="M150 78 C132 78 120 92 120 108 C120 124 132 138 150 138 C160 138 168 133 172 126 L172 108 L150 108 L150 118 L161 118 L161 122 C158 126 154 128 149 128 C138 128 131 119 131 108 C131 97 138 88 150 88 C157 88 163 91 167 96 L176 88 C170 81 161 78 150 78 Z"/>
+  </g>
+
+  <!-- small house window accent -->
+  <rect x="138" y="96" width="9" height="9" fill="#0f172a" opacity="0.85"/>
+  <rect x="150" y="96" width="9" height="9" fill="#0f172a" opacity="0.85"/>
+  <rect x="138" y="108" width="9" height="9" fill="#0f172a" opacity="0.85"/>
+  <rect x="150" y="108" width="9" height="9" fill="#0f172a" opacity="0.85"/>
+
+  <!-- Wordmark -->
+  <text x="100" y="178" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="17" letter-spacing="1" fill="#e8e8e8">NexGen</text>
+  <text x="100" y="196" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="12" letter-spacing="3" fill="#9aa0a6">BUILDERS</text>
+</svg>
